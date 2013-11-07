@@ -1,3 +1,4 @@
+#NoTrayIcon
 #IfWinActive ahk_class CabinetWClass ; for use in explorer.
 ^!h::
 ClipSaved := ClipboardAll
@@ -9,4 +10,4 @@ Clipboard := ClipSaved
 ClipSaved =
 return
 #IfWinActive
-#NoTrayIcon
+
