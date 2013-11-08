@@ -1,0 +1,3 @@
+#NoTrayIcon 
+$CapsLock::Esc
+return
