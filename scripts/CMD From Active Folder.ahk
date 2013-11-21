@@ -1,5 +1,5 @@
 #NoTrayIcon
-#IfWinActive ahk_class CabinetWClass ; for use in explorer.
+#IfWinActive ahk_class CabinetWClass
 ^!h::
 ClipSaved := ClipboardAll
 Send !d
